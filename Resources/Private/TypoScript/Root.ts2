@@ -1,0 +1,15 @@
+prototype(JohannesSteu.Bootstrap.GridSystem:CustomRow) {
+    classes {
+        alignmentXS = ${q(node).property('alignmentXS') ? (' ' + q(node).property('alignmentXS')) : ''}
+        alignmentSM = ${q(node).property('alignmentSM') ? (' ' + q(node).property('alignmentSM')) : ''}
+        alignmentMD = ${q(node).property('alignmentMD') ? (' ' + q(node).property('alignmentMD')) : ''}
+        alignmentLG = ${q(node).property('alignmentLG') ? (' ' + q(node).property('alignmentLG')) : ''}
+
+        distributionXS = ${q(node).property('distributionXS') ? (' ' + q(node).property('distributionXS')) : ''}
+        distributionSM = ${q(node).property('distributionSM') ? (' ' + q(node).property('distributionSM')) : ''}
+        distributionMD = ${q(node).property('distributionMD') ? (' ' + q(node).property('distributionMD')) : ''}
+        distributionLG = ${q(node).property('distributionLG') ? (' ' + q(node).property('distributionLG')) : ''}
+
+        reverse = ${q(node).property('reverse') ? ' reverse' : ''}
+    }
+}

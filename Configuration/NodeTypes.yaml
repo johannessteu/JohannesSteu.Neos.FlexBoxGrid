@@ -1,0 +1,225 @@
+'JohannesSteu.Bootstrap.GridSystem:CustomRow':
+  ui:
+    inspector:
+      groups:
+        alignment:
+          label: 'Alignment'
+          tab: 'gridtab'
+        distribution:
+          label: 'Distribution'
+          tab: 'gridtab'
+  properties:
+    reverse:
+      type: boolean
+      ui:
+        label: 'Reverse'
+        inspector:
+          group: 'gridsystem'
+    alignmentXS:
+      type: string
+      defaultValue: ''
+      ui:
+        label: 'XS'
+        inspector:
+          group: 'alignment'
+          editor: 'TYPO3.Neos/Inspector/Editors/SelectBoxEditor'
+          editorOptions:
+            placeholder: 'Choose'
+            values:
+              '':
+                label: 'none'
+              'start-xs':
+                label: 'Start'
+              'center-xs':
+                label: 'Center'
+              'end-xs':
+                label: 'End'
+              'end-xs':
+                label: 'Top'
+              'middle-xs':
+                label: 'Middle'
+              'bottom-xs':
+                label: 'Bottom'
+    alignmentSM:
+      type: string
+      defaultValue: ''
+      ui:
+        label: 'SM'
+        inspector:
+          group: 'alignment'
+          editor: 'TYPO3.Neos/Inspector/Editors/SelectBoxEditor'
+          editorOptions:
+            placeholder: 'Choose'
+            values:
+              '':
+                label: 'none'
+              'start-sm':
+                label: 'Start'
+              'center-sm':
+                label: 'Center'
+              'end-sm':
+                label: 'End'
+              'end-sm':
+                label: 'Top'
+              'middle-sm':
+                label: 'Middle'
+              'bottom-sm':
+                label: 'Bottom'
+    alignmentMD:
+      type: string
+      defaultValue: ''
+      ui:
+        label: 'MD'
+        inspector:
+          group: 'alignment'
+          editor: 'TYPO3.Neos/Inspector/Editors/SelectBoxEditor'
+          editorOptions:
+            placeholder: 'Choose'
+            values:
+              '':
+                label: 'none'
+              'start-md':
+                label: 'Start'
+              'center-md':
+                label: 'Center'
+              'end-md':
+                label: 'End'
+              'end-md':
+                label: 'Top'
+              'middle-md':
+                label: 'Middle'
+              'bottom-md':
+                label: 'Bottom'
+    alignmentLG:
+      type: string
+      defaultValue: ''
+      ui:
+        label: 'LG'
+        inspector:
+          group: 'alignment'
+          editor: 'TYPO3.Neos/Inspector/Editors/SelectBoxEditor'
+          editorOptions:
+            placeholder: 'Choose'
+            values:
+              '':
+                label: 'none'
+              'start-lg':
+                label: 'Start'
+              'center-lg':
+                label: 'Center'
+              'end-lg':
+                label: 'End'
+              'end-lg':
+                label: 'Top'
+              'middle-lg':
+                label: 'Middle'
+              'bottom-lg':
+                label: 'Bottom'
+    distributionXS:
+      type: string
+      defaultValue: ''
+      ui:
+        label: 'XS'
+        inspector:
+          group: 'distribution'
+          editor: 'TYPO3.Neos/Inspector/Editors/SelectBoxEditor'
+          editorOptions:
+            placeholder: 'Choose'
+            values:
+              '':
+                label: 'none'
+              'around-xs':
+                label: 'Around'
+              'betweeen-xs':
+                label: 'Between'
+    distributionSM:
+      type: string
+      defaultValue: ''
+      ui:
+        label: 'SM'
+        inspector:
+          group: 'distribution'
+          editor: 'TYPO3.Neos/Inspector/Editors/SelectBoxEditor'
+          editorOptions:
+            placeholder: 'Choose'
+            values:
+              '':
+                label: 'none'
+              'around-sm':
+                label: 'Around'
+              'betweeen-sm':
+                label: 'Between'
+    distributionMD:
+      type: string
+      defaultValue: ''
+      ui:
+        label: 'MD'
+        inspector:
+          group: 'distribution'
+          editor: 'TYPO3.Neos/Inspector/Editors/SelectBoxEditor'
+          editorOptions:
+            placeholder: 'Choose'
+            values:
+              '':
+                label: 'none'
+              'around-md':
+                label: 'Around'
+              'betweeen-md':
+                label: 'Between'
+    distributionLG:
+      type: string
+      defaultValue: ''
+      ui:
+        label: 'LG'
+        inspector:
+          group: 'distribution'
+          editor: 'TYPO3.Neos/Inspector/Editors/SelectBoxEditor'
+          editorOptions:
+            placeholder: 'Choose'
+            values:
+              '':
+                label: 'none'
+              'around-lg':
+                label: 'Around'
+              'betweeen-lg':
+                label: 'Between'
+
+'JohannesSteu.Bootstrap.GridSystem:CustomColumn':
+  properties:
+    sizeXS:
+      defaultValue: 'col-xs'
+      ui:
+        inspector:
+          editorOptions:
+            values:
+              'col-xs':
+                label: 'Auto'
+    sizeSM:
+      ui:
+        inspector:
+          editorOptions:
+            values:
+              'col-sm':
+                label: 'Auto'
+    sizeMD:
+      ui:
+        inspector:
+          editorOptions:
+            values:
+              'col-md':
+                label: 'Auto'
+    sizeLG:
+      ui:
+        inspector:
+          editorOptions:
+            values:
+              'col-lg':
+                label: 'Auto'
+    visible:
+      ui:
+        inspector:
+          group: 'dont show'
+    hidden:
+      ui:
+        inspector:
+          group: 'dont show'
