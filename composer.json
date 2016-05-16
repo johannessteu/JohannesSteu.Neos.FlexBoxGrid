@@ -1,6 +1,6 @@
 {
   "name": "johannessteu\/neos-flexboxgrid",
-  "type": "typo3-neos-plugin",
+  "type": "typo3-flow-package",
   "description": "Neos CMS package to provide some flexbox based grid layouts",
   "license": "GPL-3.0+",
   "authors": [
