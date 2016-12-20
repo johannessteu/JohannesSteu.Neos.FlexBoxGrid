@@ -13,7 +13,7 @@
   ],
   "require": {
     "typo3/neos": "*",
-    "johannessteu/bootstrap-gridsystem": "~3.0.0"
+    "johannessteu/bootstrap-gridsystem": "*"
   },
   "autoload": {
     "psr-0": {
