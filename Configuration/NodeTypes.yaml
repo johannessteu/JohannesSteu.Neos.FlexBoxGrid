@@ -22,7 +22,7 @@
         label: 'XS'
         inspector:
           group: 'alignment'
-          editor: 'TYPO3.Neos/Inspector/Editors/SelectBoxEditor'
+          editor: 'Neos.Neos/Inspector/Editors/SelectBoxEditor'
           editorOptions:
             placeholder: 'Choose'
             values:
@@ -47,7 +47,7 @@
         label: 'SM'
         inspector:
           group: 'alignment'
-          editor: 'TYPO3.Neos/Inspector/Editors/SelectBoxEditor'
+          editor: 'Neos.Neos/Inspector/Editors/SelectBoxEditor'
           editorOptions:
             placeholder: 'Choose'
             values:
@@ -72,7 +72,7 @@
         label: 'MD'
         inspector:
           group: 'alignment'
-          editor: 'TYPO3.Neos/Inspector/Editors/SelectBoxEditor'
+          editor: 'Neos.Neos/Inspector/Editors/SelectBoxEditor'
           editorOptions:
             placeholder: 'Choose'
             values:
@@ -97,7 +97,7 @@
         label: 'LG'
         inspector:
           group: 'alignment'
-          editor: 'TYPO3.Neos/Inspector/Editors/SelectBoxEditor'
+          editor: 'Neos.Neos/Inspector/Editors/SelectBoxEditor'
           editorOptions:
             placeholder: 'Choose'
             values:
@@ -122,7 +122,7 @@
         label: 'XS'
         inspector:
           group: 'distribution'
-          editor: 'TYPO3.Neos/Inspector/Editors/SelectBoxEditor'
+          editor: 'Neos.Neos/Inspector/Editors/SelectBoxEditor'
           editorOptions:
             placeholder: 'Choose'
             values:
@@ -139,7 +139,7 @@
         label: 'SM'
         inspector:
           group: 'distribution'
-          editor: 'TYPO3.Neos/Inspector/Editors/SelectBoxEditor'
+          editor: 'Neos.Neos/Inspector/Editors/SelectBoxEditor'
           editorOptions:
             placeholder: 'Choose'
             values:
@@ -156,7 +156,7 @@
         label: 'MD'
         inspector:
           group: 'distribution'
-          editor: 'TYPO3.Neos/Inspector/Editors/SelectBoxEditor'
+          editor: 'Neos.Neos/Inspector/Editors/SelectBoxEditor'
           editorOptions:
             placeholder: 'Choose'
             values:
@@ -173,7 +173,7 @@
         label: 'LG'
         inspector:
           group: 'distribution'
-          editor: 'TYPO3.Neos/Inspector/Editors/SelectBoxEditor'
+          editor: 'Neos.Neos/Inspector/Editors/SelectBoxEditor'
           editorOptions:
             placeholder: 'Choose'
             values:
