@@ -39,10 +39,10 @@ JohannesSteu:
           col-4: 'col-xs-12 col-sm-3'
 Neos:
   Neos:
-    typoScript:
-      autoInclude:
-        JohannesSteu.Neos.FlexBoxGrid: true
     nodeTypes:
       groups:
         grid:
           label: 'FlexBox grids'
+    fusion:
+      autoInclude:
+        JohannesSteu.Neos.FlexBoxGrid: true
