@@ -1,23 +1,15 @@
 {
     "name": "johannessteu/neos-flexboxgrid",
-    "type": "typo3-flow-package",
+    "type": "neos-package",
     "description": "Neos CMS package to provide some flexbox based grid layouts",
     "license": "GPL-3.0+",
-    "authors": [
-        {
-            "name": "Johannes Steu",
-            "email": "js@johannessteu.de",
-            "homepage": "http://johannessteu.de",
-            "role": "Developer"
-        }
-    ],
     "require": {
-        "typo3/neos": "*",
+        "neos/neos": "*",
         "johannessteu/bootstrap-gridsystem": "*"
     },
     "autoload": {
-        "psr-0": {
-            "JohannesSteu\\Neos\\FlexBoxGrid": "Classes"
+        "psr-4": {
+            "JohannesSteu\\Neos\\FlexBoxGrid\\": "Classes"
         }
     },
     "extra": {
